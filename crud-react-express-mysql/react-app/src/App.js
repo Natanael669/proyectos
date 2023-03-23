@@ -41,11 +41,11 @@ function App() {
 
       <div className='container'>
         <div className='row'>
-          <div className='col-7'>
+          <div className='col-7 pt-3'>
             <h2 style={{ textAlign: 'center' }}>Lista de libros</h2>
             <Listalibros enviar = {enviar} libros={libros} setActualizar={setActualizar} setEnviar= {setEnviar} />
           </div>
-          <div className='col-5'>
+          <div className='col-5 pt-3'>
             <h2 style={{ textAlign: 'center' }}>Formulario de libros</h2>
             <Formulario enviar = {enviar} setEnviar= {setEnviar} />
           </div>

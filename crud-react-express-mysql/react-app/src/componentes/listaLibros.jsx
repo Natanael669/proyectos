@@ -31,7 +31,7 @@ const Listalibros = ({ enviar, libros, setActualizar, setEnviar }) => {
   };
 
   return (
-    <div>
+    <div className="pt-3">
       <table className="table">
         <thead>
           <tr>

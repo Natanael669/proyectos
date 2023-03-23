@@ -30,7 +30,7 @@ const Formulario = ({ enviar, setEnviar }) => {
   return (
     // en el campo "name" del input debe ir el mismo nombre que ingresamos en el useState "enviar" en app.js
     // y en cuanto al campo "value" se usaran al actualizar un campo, para limpiar los campos
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="pt-3">
       <div className="mb-3">
         <label htmlFor="titulo" className="form-label">
           Titulo
