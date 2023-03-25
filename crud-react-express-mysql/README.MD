@@ -7,7 +7,7 @@
 
 # importar el DUMP en la base de datos
 
-# instalar "REST Client" para utilizar el archivo "rutas.http" localizado en "api-mysql-express/rutas.http"
+# instalar "REST Client" como extension en el editor de texto, (en mi caso vscode) para utilizar el archivo "rutas.http" localizado en "api-mysql-express/rutas.http"
 
 # iniciar api:
 ### `npm start dev`
