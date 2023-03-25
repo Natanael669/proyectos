@@ -1,0 +1,19 @@
+body {
+    background-color: #202020;
+    opacity: 0.8;
+    background-image: radial-gradient(circle at center center, #444cf7, #e5e5f7), repeating-radial-gradient(circle at center center, #444cf7, #444cf7, 10px, transparent 20px, transparent 10px);
+    background-blend-mode: multiply;
+    color: white;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-block {
+    display: block;
+    margin: 0 auto;
+}
