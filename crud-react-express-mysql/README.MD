@@ -9,8 +9,8 @@
 
 # instalar "REST Client" para utilizar el archivo "rutas.http" localizado en "api-mysql-express/rutas.http"
 
-iniciar api:
+# iniciar api:
 ### `npm start dev`
 
-iniciar proyecto react:
+# iniciar proyecto react:
 ### `npm start`
