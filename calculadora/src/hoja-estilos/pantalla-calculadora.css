@@ -1,0 +1,15 @@
+.input {
+    height: 75px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;  /* recordar que al ingresar datos en el import, los datos deben mostrarse al final no al centro*/
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #0a0a23;  
+    color: white;
+    padding: 11px 30px 11px 11px;  /* recordar que el padding si son 4 valores ira en sentido horario, por lo que el padding de 30px es en la izquierda*/
+    margin: 1px solid #888;
+    box-shadow: -1px 4px 1px 1px white;  /* reforzar box-shadow si es posible ya que es mejor que los border en algunos casos*/
+}

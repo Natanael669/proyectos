@@ -1,0 +1,20 @@
+.boton-limpiar {
+  height: 80px;
+  font-size: 1.6em; /* va a ser 1.6 veces mas grande que su contenedor, ACLARAR QUE NO TENGO NI IDEA SI ES LO MISMO QUE rem */
+  display: flex;
+  flex-grow: 1;
+  background-color: #ac0246;
+  margin-top: 8px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 25px;
+}
+
+.boton-limpiar:hover {
+  background-color: #ebb000;
+}

@@ -1,0 +1,30 @@
+.boton-contenedor {
+  height: 83px;
+  display: flex;
+  flex-grow: 1;   /* no entiendo bien esta propiedad pero se podria decir que especifica si toma o no todo el contenedor de ancho*/
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 38px;
+  background-color: #1b1b32;
+  color: white;
+  border-radius: 25px;
+  border: 2px solid white;
+  margin: 4px;
+  cursor: pointer;
+  user-select: none;     /*ESTA PROPIEDAD PERMITE QUE EL TEXTO NO SE PUEDA SELECCIONAR CON EL RATON, 
+                          PARA ASI SE ASEMEJE MAS A UN BOTON */
+}
+
+.operador {
+  background-color: #38cb5a;
+}
+
+.boton-contenedor:hover {
+  background-color: #800080;
+}
+
+.operador:hover {   /* aqui le damos al operador */
+  background-image: linear-gradient( 102.4deg,  rgba(253,189,85,1) 7.8%, rgba(249,131,255,1) 100.3% );
+}
+
