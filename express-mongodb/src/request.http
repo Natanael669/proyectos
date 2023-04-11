@@ -1,0 +1,28 @@
+###
+POST http://localhost:3000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+  "nombre": "damian",
+  "edad": 27,
+  "email": "damian@damian.com"
+}
+
+###
+GET http://localhost:3000/api/users HTTP/1.1
+
+###
+GET http://localhost:3000/api/users/6435924de9d24d6799a0935e HTTP/1.1
+
+###
+PUT http://localhost:3000/api/users/643359e40c32c3ada2d164c9 HTTP/1.1
+Content-Type: application/json
+
+{
+  "nombre": "Isael",
+  "edad": 23,
+  "email": "isa@isa.com"
+}
+
+###
+DELETE http://localhost:3000/api/users/643597ab274f6c243d1f3c1b HTTP/1.1
