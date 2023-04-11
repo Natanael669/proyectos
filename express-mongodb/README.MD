@@ -1,0 +1,1 @@
+en .env agregar los datos de mongo db atlas
