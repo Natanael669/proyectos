@@ -1,1 +1,1 @@
-# Practica de el uso de contextAPI, para estados globales de forma nativa
+# Practica de el uso de context, para estados globales de forma nativa con una API
