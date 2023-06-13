@@ -2,7 +2,7 @@ const express = require('express')
 const router = express.Router()
 const esquemaUsuario = require('../schemas/usuario')
 
-// agregar
+// AGREGAR //
 router.post('/agregarUsuario', (req, res) => {
   const { nombre, email, telefono } = req.body;
 
@@ -30,7 +30,7 @@ router.post('/agregarUsuario', (req, res) => {
 });
 
 
-// obtener todos
+// OBTENER TODOS LOS DATOS //
 router.get('/obtenerUsuarios', (req, res) => {
   esquemaUsuario
     .find()
@@ -38,7 +38,7 @@ router.get('/obtenerUsuarios', (req, res) => {
     .catch((err) => res.json({ mensaje: err }))
 })
 
-// obtener solo uno
+// OBTENER SOLO UNO //
 router.get('/obtenerUsuario/:id', (req, res) => {
   const id = req.params.id;
   esquemaUsuario
@@ -47,7 +47,7 @@ router.get('/obtenerUsuario/:id', (req, res) => {
     .catch((err) => res.json({ mensaje: err }))
 })
 
-// editar
+// EDITAR //
 router.put('/actualizarUsuario/:id', (req, res) => {
 
   const { nombre, email, telefono } = req.body;
@@ -78,7 +78,7 @@ router.put('/actualizarUsuario/:id', (req, res) => {
     .catch((err) => res.json({ mensaje: err }));
 });
 
-// eliminar
+// ELIMINAR //
 router.delete('/borrarUsuario/:id', (req, res) => {
   const id = req.params.id
   esquemaUsuario
